@@ -1,0 +1,8 @@
+---
+- name: install apache2 on new2
+  apt: name=apache2 state=latest
+  become: true
+---
+- name: install nginx on new3
+  apt: name=nginx  state=latest
+  become: true
